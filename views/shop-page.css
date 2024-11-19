@@ -277,6 +277,8 @@
   font-weight: var(--body-small-400-font-weight, 400);
   position: relative;
   width: 578px;
+  border: none;
+  outline: none;
 }
 .regular-magnifying-glass {
   flex-shrink: 0;
@@ -1782,6 +1784,8 @@
   font-weight: var(--body-small-400-font-weight, 400);
   position: relative;
   width: 364px;
+  border: none;
+  outline: none;
 }
 .regular-magnifying-glass2 {
   flex-shrink: 0;
