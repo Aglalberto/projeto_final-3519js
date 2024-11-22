@@ -1,9 +1,24 @@
+.carrinho-de-compras {
+  color: #e0e1e1;
+}
+
+video {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  text-align: 0px;
+  text-decoration: 0px;
+}
 
 .barra-de-pesquisa {
-  border: none;
+  
+  border: 0px;
   border-radius: 15px;
   width: 650px;
   height: 30px;
+  padding: 15px;
+  border: 10px;
+  
 }
 
 .button-menu {
@@ -279,8 +294,9 @@
 }
 
 .search-for-anything {
+  display: flex;
   color: var(--gray-500, #77878f);
-  text-align: left;
+  text-align: lef;
   font-family: var(
     --body-small-400-font-family,
     "PublicSans-Regular",
@@ -1310,17 +1326,9 @@
   overflow: visible;
 }
 .button3 {
-  background: var(--primary-500, #fa8232);
-  border-radius: 3px;
-  padding: 0px 32px 0px 32px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 310px;
-  position: relative;
+  background: var(--primary-500, #ffffff);
+  width: 250px;
+  height: 40px;
 }
 .label2 {
   color: var(--gray-00, #ffffff);
@@ -1340,31 +1348,31 @@
   position: relative;
   overflow: visible;
 }
+
+.carrinho-de-compras-02 {
+  color: #00ff88;
+}
+
+.carrinho-de-compras {
+ color: #2da5f3;
+}
+
 .button4 {
-  border-radius: 3px;
-  border-style: solid;
-  border-color: var(--primary-500, #fa8232);
-  border-width: 2px;
-  padding: 0px 32px 0px 32px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
+ width: 220px;
+ height: 40px;
 }
 .label3 {
-  color: var(--primary-500, #fa8232);
-  text-align: left;
+  color: var(--primary-500, #00ff88);
   font-family: var(--heading-06-font-family, "PublicSans-Bold", sans-serif);
   font-size: var(--heading-06-font-size, 16px);
-  line-height: var(--heading-06-line-height, 56px);
+  line-height: var(--heading-06-line-height, 39px);
   letter-spacing: var(--heading-06-letter-spacing, 0.012em);
   font-weight: var(--heading-06-font-weight, 700);
-  text-transform: uppercase;
-  position: relative;
+
+  width: 200px;
+  height: 40px;
 }
+
 .content {
   padding: 0px 0px 8px 0px;
   display: flex;
